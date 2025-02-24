@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-22T17:38:33 IST" name="Suite" finished-at="2025-02-22T17:38:55 IST" duration-ms="21220">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="ErrorValidationTest.incorrectCredentials()[pri:0, instance:google.ErrorValidationTest@6436a7db]" name="incorrectCredentials" class="google.ErrorValidationTest"/>
+      </group> <!-- ErrorHandling -->
+    </groups>
+    <test started-at="2025-02-22T17:38:33 IST" name="Error Validation Test" finished-at="2025-02-22T17:38:43 IST" duration-ms="9692">
+      <class name="google.ErrorValidationTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:google.ErrorValidationTest@6436a7db]" started-at="2025-02-22T17:38:33 IST" name="launchApplication" finished-at="2025-02-22T17:38:37 IST" duration-ms="3840" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="incorrectCredentials()[pri:0, instance:google.ErrorValidationTest@6436a7db]" started-at="2025-02-22T17:38:37 IST" name="incorrectCredentials" finished-at="2025-02-22T17:38:39 IST" duration-ms="1617" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- incorrectCredentials -->
+        <test-method is-config="true" signature="endCode()[pri:0, instance:google.ErrorValidationTest@6436a7db]" started-at="2025-02-22T17:38:39 IST" name="endCode" finished-at="2025-02-22T17:38:39 IST" duration-ms="278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endCode -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:google.ErrorValidationTest@6436a7db]" started-at="2025-02-22T17:38:39 IST" name="launchApplication" finished-at="2025-02-22T17:38:42 IST" duration-ms="3241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="incorrectUsername()[pri:0, instance:google.ErrorValidationTest@6436a7db]" started-at="2025-02-22T17:38:42 IST" name="incorrectUsername" finished-at="2025-02-22T17:38:43 IST" duration-ms="521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- incorrectUsername -->
+        <test-method is-config="true" signature="endCode()[pri:0, instance:google.ErrorValidationTest@6436a7db]" started-at="2025-02-22T17:38:43 IST" name="endCode" finished-at="2025-02-22T17:38:43 IST" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endCode -->
+      </class> <!-- google.ErrorValidationTest -->
+    </test> <!-- Error Validation Test -->
+    <test started-at="2025-02-22T17:38:33 IST" name="Submit Order Test" finished-at="2025-02-22T17:38:55 IST" duration-ms="21220">
+      <class name="google.StandAloneSmokeTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:google.StandAloneSmokeTest@29526c05]" started-at="2025-02-22T17:38:34 IST" name="launchApplication" finished-at="2025-02-22T17:38:37 IST" duration-ms="3611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:google.StandAloneSmokeTest@29526c05]" started-at="2025-02-22T17:38:37 IST" name="submitOrder" data-provider="getData" finished-at="2025-02-22T17:38:43 IST" duration-ms="6239" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Robert@726385k, product=IPHONE 13 PRO, email=kartikeyashah@yahoo.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="endCode()[pri:0, instance:google.StandAloneSmokeTest@29526c05]" started-at="2025-02-22T17:38:43 IST" name="endCode" finished-at="2025-02-22T17:38:44 IST" duration-ms="193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endCode -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:google.StandAloneSmokeTest@29526c05]" started-at="2025-02-22T17:38:44 IST" name="launchApplication" finished-at="2025-02-22T17:38:45 IST" duration-ms="1699" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:google.StandAloneSmokeTest@29526c05]" started-at="2025-02-22T17:38:45 IST" name="submitOrder" data-provider="getData" finished-at="2025-02-22T17:38:49 IST" duration-ms="3242" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=ShradhaLovesKartikeya@123, product=ZARA COAT 3, email=shradhapandey@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="endCode()[pri:0, instance:google.StandAloneSmokeTest@29526c05]" started-at="2025-02-22T17:38:49 IST" name="endCode" finished-at="2025-02-22T17:38:49 IST" duration-ms="215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endCode -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:google.StandAloneSmokeTest@29526c05]" started-at="2025-02-22T17:38:49 IST" name="launchApplication" finished-at="2025-02-22T17:38:51 IST" duration-ms="2575" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="OrderSequenceValidation(java.util.HashMap)[pri:0, instance:google.StandAloneSmokeTest@29526c05]" started-at="2025-02-22T17:38:51 IST" name="OrderSequenceValidation" data-provider="getData" finished-at="2025-02-22T17:38:52 IST" depends-on-methods="google.StandAloneSmokeTest.submitOrder" duration-ms="636" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Robert@726385k, product=IPHONE 13 PRO, email=kartikeyashah@yahoo.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderSequenceValidation -->
+        <test-method is-config="true" signature="endCode()[pri:0, instance:google.StandAloneSmokeTest@29526c05]" started-at="2025-02-22T17:38:52 IST" name="endCode" finished-at="2025-02-22T17:38:52 IST" duration-ms="183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endCode -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:google.StandAloneSmokeTest@29526c05]" started-at="2025-02-22T17:38:52 IST" name="launchApplication" finished-at="2025-02-22T17:38:54 IST" duration-ms="1494" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="OrderSequenceValidation(java.util.HashMap)[pri:0, instance:google.StandAloneSmokeTest@29526c05]" started-at="2025-02-22T17:38:54 IST" name="OrderSequenceValidation" data-provider="getData" finished-at="2025-02-22T17:38:54 IST" depends-on-methods="google.StandAloneSmokeTest.submitOrder" duration-ms="690" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=ShradhaLovesKartikeya@123, product=ZARA COAT 3, email=shradhapandey@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderSequenceValidation -->
+        <test-method is-config="true" signature="endCode()[pri:0, instance:google.StandAloneSmokeTest@29526c05]" started-at="2025-02-22T17:38:54 IST" name="endCode" finished-at="2025-02-22T17:38:55 IST" duration-ms="157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endCode -->
+      </class> <!-- google.StandAloneSmokeTest -->
+    </test> <!-- Submit Order Test -->
+  </suite> <!-- Suite -->
+</testng-results>
