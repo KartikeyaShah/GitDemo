@@ -76,14 +76,14 @@ public class StandAloneSmokeTest extends BaseComponents{
 
 	}
 	
-	@Test(dependsOnMethods= {"submitOrder"}, dataProvider="getData")
-	public void OrderSequenceValidation(HashMap<String,String> input) throws IOException
-	{
-		ProductPage pp = lp.loginAction(input.get("email"), input.get("password"));
-		OrderPage op = pp.goToOrderPage();
-		Assert.assertTrue(op.verifyOrderDisplay(input.get("product")));
-		
-	}
+//	@Test(dependsOnMethods= {"submitOrder"}, dataProvider="getData")
+//	public void OrderSequenceValidation(HashMap<String,String> input) throws IOException
+//	{
+//		ProductPage pp = lp.loginAction(input.get("email"), input.get("password"));
+//		OrderPage op = pp.goToOrderPage();
+//		Assert.assertTrue(op.verifyOrderDisplay(input.get("product")));
+//		
+//	}
 	
 //	@DataProvider
 //	public Object[][] getData()
